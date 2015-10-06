@@ -4,10 +4,10 @@ public class Heys {
 	short [] blocks;
 	private byte [] S = {8, 0, 12, 4, 9, 6, 7, 11, 2, 3, 1, 15, 5, 14, 10, 13};
 	
-	Heys () {
+	public Heys () {
 	}
 	
-	Heys (short[] inText) {
+	public Heys (short[] inText) {
 		blocks = new short [inText.length];
 		System.arraycopy(inText, 0, blocks, 0, blocks.length);
 	}
